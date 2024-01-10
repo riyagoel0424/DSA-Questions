@@ -1,0 +1,21 @@
+# include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int a = 56;
+    a = 24;
+    cout<<"Now the new value of a is "<< a;
+
+/*  HERE YOU NEED TO KEEP TWO THINGS IN YOUR MIND 
+    1) AISE AGR PHLE A KI VALUE 56 THI ORR USKE BAAD DUSRI VALUE LIKHII TO A KI VALUE CHANGE HO JAYEGI 
+       MEMORY MEIN ..... 56 KI JGH 24
+    2) PHLE JBB INT A LIKH DIA TO ABB DOBARA DATA TYPE BTANE KI NO NEED \
+
+    /* YE VALA SYMBOL  USE HOTA HAI UPR NEECHE FOR MULTILINE COMMENT 
+    // YE USE HOTA HAI FOR SINGLE LINE COMMENT 
+*/
+
+    return 0;
+}
