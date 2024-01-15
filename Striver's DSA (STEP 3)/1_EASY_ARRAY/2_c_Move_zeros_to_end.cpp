@@ -3,14 +3,20 @@
 #include<iostream>    
 using namespace std;
 
-void rotation(int arr[], int n )
+void zeros_to_end(int arr[], int n )
 {
-    int temp = arr[0];
+    int temp[100];
+
     for(int i =1 ; i < n ; i++)
     {
-        arr[i-1] = arr[i];
+        int j =0;
+        if(arr[i] == 0)
+        {
+            temp[j] = arr[i];
+            j++;
+        }
     }
-    arr[n-1] = temp;
+    
 }
 
 int main(){
@@ -24,9 +30,9 @@ int main(){
         cin >> arr[i] ;
     }        
 
-    rotation(arr, n);
+    zeros_to_end(arr, n);
 
-    cout<< "Rotated array is ";
+    cout<< "THE RESULTANT ARRAY IS ";
 
     for(int i =0 ; i < n ;i++ )
     {
