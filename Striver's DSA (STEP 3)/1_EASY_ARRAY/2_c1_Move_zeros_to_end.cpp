@@ -1,20 +1,31 @@
-/// LEFT ROTATE AN ARRAY BY ONE PLACE (2ND VIDEO KA  CODE)
+///     BRUTE WAY    ///
+///  MOVE ZEROS AT THE END OF ARRAY (2ND VIDEO KA 3rd CODE)
 
-#include<iostream>    
+#include<iostream>
+#include<vector>    
 using namespace std;
 
 void zeros_to_end(int arr[], int n )
 {
-    int temp[100];
+    vector<int> temp;
 
     for(int i =1 ; i < n ; i++)
     {
-        int j =0;
-        if(arr[i] == 0)
+        if(arr[i] != 0)
         {
-            temp[j] = arr[i];
-            j++;
+            temp.push_back(arr[i]);
         }
+    }
+    
+    int size =  temp.size();
+    for(int i = 0 ; i < size ; i++)
+    {
+        arr[i] = temp[i];
+    }
+
+    for(int i = size ; i < n ;i++)
+    {
+        arr[i] = 0;
     }
     
 }
