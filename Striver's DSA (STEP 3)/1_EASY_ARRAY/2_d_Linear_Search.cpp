@@ -6,7 +6,7 @@ using namespace std;
 
 int linear_search(int arr[] , int n , int num)
 {
-    for(int i =0 ; i < n ; i++)
+    for(int i =0 ; i < n ; i++)    /// JO NUMBER DHUNDNA H VO JIS INDEX PR HOGA VO INDEX RETURN HOGA
     {
         if(arr[i] == num)
         {

@@ -8,7 +8,7 @@ using namespace std;
 void zeros_to_end(int arr[], int n )
 {
     int j = -1 ;
-    for(int i = 0; i < n; i++)
+    for(int i = 0; i < n; i++)  /// SABSE PHLE J POINTER KO USS INDEX PR LEKR JAO JHAA FIRST 0 AAYA HAI IN THE ARRAY
     {
         if(arr[i] == 0)
         {
@@ -17,7 +17,7 @@ void zeros_to_end(int arr[], int n )
         }
     }
 
-    for(int i = j+1 ; i < n ; i++)
+    for(int i = j+1 ; i < n ; i++)   /// J AND I DONO POINTER KO MOVE KRENGE & J HMESHA UNN INDEX PR RHEGA JHA 0 HAI
     {
         if(arr[i] != 0)
         {
