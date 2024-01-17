@@ -1,6 +1,10 @@
+/// UNION OF SORTED ARRAY /// OPTIMAL SOLUTION
+
 #include<bits/stdc++.h>    
 #include<iostream>
 using namespace std;
+
+//// I HAVE NOT DONE THIS YET /// MENE ISKE BAAD KA INTERSECTION OF TWO ARRAYS BHI NHI KIA
 
 int main(){
     int n ;
