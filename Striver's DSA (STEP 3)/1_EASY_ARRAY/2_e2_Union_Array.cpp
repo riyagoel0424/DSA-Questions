@@ -1,4 +1,5 @@
 /// UNION OF SORTED ARRAY /// OPTIMAL SOLUTION
+/// YE MENE ABHI NHI KIA ... NA ISKE BAAD VALA INTERSECTION OF TWO ARRAY KIA HAI ...
 
 #include<bits/stdc++.h>    
 #include<iostream>

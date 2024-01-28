@@ -1,4 +1,5 @@
-/// UNION OF TWO ARRAYS     /// THIS WILL ALSO BE SORTED 
+/// UNION OF TWO ARRAYS     /// THIS WILL ALSO BE SORTED  
+/// BRUTE SOLUTION ////
 
 #include<bits/stdc++.h>    
 using namespace std;
