@@ -21,7 +21,7 @@ void selection_sort(int ary[] ,int n)
     }
 
 }
-//////////////////////////////////////////////////////////  UPAR VALA IS SELECTION SORT KA CODE 
+////////////////////////////////////////////////////////  UPAR VALA IS SELECTION SORT KA CODE 
 
 int main(){
 
@@ -46,6 +46,20 @@ int main(){
     {
         cout<< ary[i] << " " ;
     }
+
+    // for(int i = n-2 ; i>=0 ; i--)     // this loop is to find the second largest number in array
+    // {
+    //     if(ary[i] = ary[i+1])
+    //     {
+    //         continue;
+    //     }
+    //     else
+    //     {
+    //         cout<< ary[i];
+    //     }
+        
+    // }
+
 
     return 0;
 }
