@@ -9,11 +9,6 @@ int main(){
     sett.insert(2);
     sett.insert(2);
     sett.insert(3);
-
-    for()
-
-
-
-
+    
     return 0;
 }

@@ -15,6 +15,8 @@ class A: public B, virtual public C{
 };
 
 */
+# include <iostream>
+using namespace std;
 
 class Base1{
     int data1;
