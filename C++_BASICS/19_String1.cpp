@@ -8,12 +8,12 @@ int main(){
     string str2 ;
     string str3 ;
 
-    str1 = "RIYAGOEL" ;                 //// WE CANT GIVE SPACES HERE .... THERE IS ANOTHER METHOD FOR GIVING SPACE
+    str1 = "RIYAGOEL" ;                 
     str2 = "RIYA GOEL" ;                /// THIS WILL GIVE RIYA GOEL ... YE STRING KESE BHI LIKHO .. WITH SPACES
 
     cout<< "WRITE YOUR STRING" << endl ;
-    cin >> str3 ;                       //// BUT IF YOU GIVE INPUT "RIYA GOEL" ... THEN OUTPUT WILL BE RIYA ONLY 
-                                        ////  NO SPACES ARE ACCEPTED AISE
+    cin >> str3 ;                 //// BUT IF YOU GIVE INPUT "RIYA GOEL" IN TERMINAL ... THEN OUTPUT WILL BE RIYA ONLY 
+                                  ////  NO SPACES ARE ACCEPTED AISE
 
     cout << str1 << endl  ;
     cout << str2 << endl  ;
