@@ -26,6 +26,42 @@ int sec_largest_num_in_arr(int arr[], int n )
     cout << "second largest number of array is "<< sec_largest_num ;
 }
 
+
+void insertElement(int arr[], int &n, int element, int position) {
+    // Make sure the position is valid
+    if(position > n || position < 0) {
+        cout << "Invalid position!" << endl;
+        return;
+    }
+    
+    // Shift elements to the right
+    for(int i = n; i > position; i--) {
+        arr[i] = arr[i - 1];
+    }
+    
+    // Insert the element
+    arr[position] = element;
+    
+    // Increment the size of the array
+    n++;
+}
+
+void deleteElement(int arr[], int &n, int position) {
+    // Make sure the position is valid
+    if(position >= n || position < 0) {
+        cout << "Invalid position!" << endl;
+        return;
+    }
+    
+    // Shift elements to the left
+    for(int i = position; i < n - 1; i++) {
+        arr[i] = arr[i + 1];
+    }
+    
+    // Decrease the size of the array
+    n--;
+}
+
 int main(){
     int n ;
     cout << "The number of elements in an array " << endl ;
@@ -39,5 +75,9 @@ int main(){
 
     sec_largest_num_in_arr( arr , n );                           /// upar likha function call hua hai
 
+    insertElement(arr, n, 6, 2) ;
+
+    deleteElement(arr, n, 3) ;
+
     return 0 ;
-} 
+ } 

@@ -15,8 +15,12 @@ int main(){
 
     for(int i =0 ; i < n ;i++ )
     {
-        cout<< arr[i] << " " ;
+        cout<< arr[i] << " " << endl;
     }                                                      
     
+    int arr1[10];
+    cout << "SIZE OF ARRAY IN BYTES" << sizeof(arr1) << endl;
+    cout << "LENGTH OF ARRAY" << sizeof(arr1) / sizeof(int) << endl;
     return 0 ;
+
 } 

@@ -3,7 +3,6 @@
 # include <iostream> 
 using namespace std;
 
-//// HASH IS A KIND OF DICTIONARY ... CONTAINS KEY VALUE PAIR  ... HASHING BASICS BY STRIVER
 /*In the context of this program, a hash is an array used to store the count of each element in the input array.
 It acts like a dictionary or a map, where each element of the input array is treated as a key,
 and its corresponding value is the count of its occurrences.

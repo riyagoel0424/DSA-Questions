@@ -9,7 +9,7 @@ void bubble_sort(int ary[] , int n)
     for(int i = 0 ; i <= n-2 ; i++)
     {   
         int didswap = 0;
-        for(int j =0 ; j <= n-i-1 ; j++)
+        for(int j =0 ; j <= n-i-1 ; j++)  // n-i bcz peeche sorted elements h in end
         {
             if(ary[j] > ary[j+1])
             {

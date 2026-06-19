@@ -1,0 +1,205 @@
+icrosoft Windows [Version 10.0.22631.4890]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\DSA-Questions>cd "d:\DSA-Questions\output"
+
+d:\DSA-Questions\output>.\"os1.exe"
+========== AVAILABLE LOGICAL DRIVES ==========
+
+=== Disk Information for Drive C:\ ===
+
+[Volume Information]
+Drive             : C:\
+Volume Name       : Windows
+Serial Number     : 2282548804
+File System Type  : NTFS
+Detected File System: Non-FAT (e.g., NTFS)
+
+[Disk Space Information]
+Sectors/Cluster   : 8
+Bytes/Sector      : 512
+Total Clusters    : 62271487
+Free Clusters     : 34319624
+Total Size        : 237.55 GB
+Free Space        : 130.92 GB
+
+=== Disk Information for Drive D:\ ===
+
+[Volume Information]
+Drive             : D:\
+Volume Name       : New Volume
+Serial Number     : 2553995284
+File System Type  : NTFS
+Detected File System: Non-FAT (e.g., NTFS)
+
+[Disk Space Information]
+Sectors/Cluster   : 8
+Bytes/Sector      : 512
+Total Clusters    : 110079999
+Free Clusters     : 101881834
+Total Size        : 419.92 GB
+Free Space        : 388.65 GB
+
+=== Disk Information for Drive E:\ ===
+
+[Volume Information]
+Drive             : E:\
+Volume Name       : New Volume
+Serial Number     : 3963604440
+File System Type  : NTFS
+Detected File System: Non-FAT (e.g., NTFS)
+
+[Disk Space Information]
+Sectors/Cluster   : 8
+Bytes/Sector      : 512
+Total Clusters    : 134109951
+Free Clusters     : 132842309
+Total Size        : 511.59 GB
+Free Space        : 506.75 GB
+
+================ PHYSICAL INFORMATION ================
+
+[RAM Information]
+Total Physical Memory : 5.94 GB
+Available Memory      : 0.62 GB
+Total Virtual Memory  : 16.78 GB
+Available Virtual Mem : 4.50 GB
+
+[CPU Information]
+CPU Model Name        : AMD Ryzen 3 3250U with Radeon Graphics
+CPU Speed             : 2595 MHz
+Processor Architecture : x64 (AMD or Intel)
+Number of Processors   : 4
+Processor Type         : 8664
+
+[Hard Disk Geometry Information]
+
+Disk: \\.\PhysicalDrive0
+Cylinders           : 121601
+Tracks/Cylinder     : 255
+Sectors/Track       : 63
+Bytes/Sector        : 512
+
+Disk: \\.\PhysicalDrive1
+Cylinders           : 31130
+Tracks/Cylinder     : 255
+Sectors/Track       : 63
+Bytes/Sector        : 512
+
+[Operating System Information]
+Windows Version     : 6.2
+Build Number        : 9200
+CSD Version         : None
+Product Type        : 1
+Suite Mask          : 768
+
+================ LOGICAL / ENVIRONMENT ================
+
+[Environment Information]
+Computer Name   : LAPTOP-H8QTFMIS
+User Name       : hp
+Windows Dir     : C:\WINDOWS
+System Dir      : C:\WINDOWS\system32
+
+d:\DSA-Questions\output>cd "d:\DSA-Questions\output"
+
+d:\DSA-Questions\output>.\"os8.exe"
+========== AVAILABLE LOGICAL DRIVES ==========
+
+=== Disk Information for Drive C:\ ===
+
+[Volume Information]
+Drive             : C:\
+Volume Name       : Windows
+Serial Number     : 2282548804
+File System Type  : NTFS
+Detected File System: Non-FAT (e.g., NTFS)
+
+[Disk Space Information]
+Sectors/Cluster   : 8
+Bytes/Sector      : 512
+Total Clusters    : 62271487
+Free Clusters     : 33687788
+Total Size        : 237.55 GB
+Free Space        : 128.51 GB
+
+=== Disk Information for Drive D:\ ===
+
+[Volume Information]
+Drive             : D:\
+Volume Name       : New Volume
+Serial Number     : 2553995284
+File System Type  : NTFS
+Detected File System: Non-FAT (e.g., NTFS)
+
+[Disk Space Information]
+Sectors/Cluster   : 8
+Bytes/Sector      : 512
+Total Clusters    : 110079999
+Free Clusters     : 101879526
+Total Size        : 419.92 GB
+Free Space        : 388.64 GB
+
+=== Disk Information for Drive E:\ ===
+
+[Volume Information]
+Drive             : E:\
+Volume Name       : New Volume
+Serial Number     : 3963604440
+File System Type  : NTFS
+Detected File System: Non-FAT (e.g., NTFS)
+
+[Disk Space Information]
+Sectors/Cluster   : 8
+Bytes/Sector      : 512
+Total Clusters    : 134109951
+Free Clusters     : 132842309
+Total Size        : 511.59 GB
+Free Space        : 506.75 GB
+
+================ PHYSICAL INFORMATION ================
+
+[RAM Information]
+Total Physical Memory : 5.94 GB
+Available Memory      : 1.53 GB
+Total Virtual Memory  : 17.53 GB
+Available Virtual Mem : 8.14 GB
+
+[CPU Information]
+CPU Model Name        : AMD Ryzen 3 3250U with Radeon Graphics
+CPU Speed             : 2595 MHz
+Processor Architecture : x64 (AMD or Intel)
+Number of Processors   : 4
+Processor Type         : 8664
+
+[Hard Disk Geometry Information]
+
+Disk: \\.\PhysicalDrive0
+Cylinders           : 121601
+Tracks/Cylinder     : 255
+Sectors/Track       : 63
+Bytes/Sector        : 512
+
+Disk: \\.\PhysicalDrive1
+Cylinders           : 31130
+Tracks/Cylinder     : 255
+Sectors/Track       : 63
+Bytes/Sector        : 512
+
+[Operating System Information]
+Windows Version     : 6.2
+Build Number        : 9200
+CSD Version         : None
+Product Type        : 1
+Suite Mask          : 768
+
+================ LOGICAL / ENVIRONMENT ================
+
+[Environment Information]
+Computer Name   : LAPTOP-H8QTFMIS
+User Name       : hp
+Windows Dir     : C:\WINDOWS
+System Dir      : C:\WINDOWS\system32
+
+d:\DSA-Questions\output>  
+
